@@ -10,8 +10,8 @@
         <h5 class="card-title">{{ $course->Nombre }}</h5>
     </div>
     <br>
-    <a href="/usuario/{{$course->id}}/edit" class="btn btn-warning">Ver detalles</a>
-    {{-- <a href="/usuario/{{$user->id}}/edit" class="btn btn-dark">Editar curso</a> --}}
+    <a href="/usuarios/{{$course->id}}/edit" class="btn btn-warning">Editar Usuario</a>
+    {{-- <a href="/usuarios/{{$user->id}}/edit" class="btn btn-dark">Editar curso</a> --}}
 </div>
 
 @endsection

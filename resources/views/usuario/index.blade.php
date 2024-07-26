@@ -18,7 +18,7 @@
                   <p class="card-text">{{ $user->Cedula }}</p>
                   <p class="card-text">{{ $user->Email }}</p>
                   <p class="card-text">{{ $user->Cargo }}</p>
-                  <a href="/usuario/{{$user->id}}" class="btn btn-success">Ver detalles</a>
+                  <a href="/usuarios/{{$user->id}}" class="btn btn-success">Ver detalles</a>
                 </div>
             </div>
         </div>
